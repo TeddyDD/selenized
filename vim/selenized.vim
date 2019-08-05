@@ -64,3 +64,18 @@ hi Error      ctermfg=1      ctermbg=0     cterm=reverse
 
 hi Todo       ctermfg=Yellow ctermbg=black cterm=reverse
 
+
+" YAML
+hi yamlBlockMappingKey ctermfg=darkgreen
+hi yamlKeyValueDelimiter ctermfg=red
+hi YamlInteger ctermfg=red
+hi YamlBool ctermfg=darkmagenta
+hi YamlFlowString ctermfg=none
+hi YamlFlowIndicator ctermfg=blue
+hi YamlFlowStringDelimiter ctermfg=yellow
+hi YamlKey ctermfg=darkgreen
+hi YamlScalar ctermfg=none
+hi YamlDelimiter ctermfg=red
+hi YamlString ctermfg=none
+hi jinjavariable ctermfg=darkmagenta
+
