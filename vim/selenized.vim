@@ -34,7 +34,7 @@ hi Comment    ctermfg=7
 hi Statement  ctermfg=3      cterm=bold
 " " `const` in javascript
 " hi Keyword    ctermfg=6
-" " `in` in Python 
+" " `in` in Python
 " hi Operator   ctermfg=7      cterm=bold
 
 " any kind of literal
@@ -63,6 +63,12 @@ hi Underlined ctermfg=12
 hi Error      ctermfg=1      ctermbg=0     cterm=reverse
 
 hi Todo       ctermfg=Yellow ctermbg=black cterm=reverse
+
+
+" Python
+hi pythonInclude ctermfg=magenta cterm=bold
+hi pythonBuiltin ctermfg=lightblue
+hi pythonFunction cterm=bold
 
 
 " YAML
