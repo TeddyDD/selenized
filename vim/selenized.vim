@@ -70,9 +70,12 @@ hi pythonInclude ctermfg=magenta cterm=bold
 hi pythonBuiltin ctermfg=lightblue
 hi pythonFunction cterm=bold
 
+" Ruby
+hi rubySymbol ctermfg=darkcyan
 
 " YAML
 hi yamlBlockMappingKey ctermfg=darkgreen
+hi yamlFlowMappingKey ctermfg=lightgreen
 hi yamlKeyValueDelimiter ctermfg=red
 hi YamlInteger ctermfg=red
 hi YamlBool ctermfg=darkmagenta
