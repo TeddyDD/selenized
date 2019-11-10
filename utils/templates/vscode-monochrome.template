@@ -1,0 +1,195 @@
+{
+	"name": "Selenized (monochrome)",
+	"type": "dark",
+	"colors": {
+		"editor.background":                   "!!COL!{bg.srgb}!",
+		"editor.foreground":                   "!!COL!{fg.srgb}!",
+		"editorCursor.foreground":             "!!COL!{fg.srgb}!",
+		"editorLineNumber.foreground":         "!!COL!{fg_dim.srgb}!",
+		"editorLineNumber.activeForeground":   "!!COL!{fg.srgb}!",
+		"editorIndentGuide.background":        "!!COL!{bg_bright_2.srgb}!",
+		"editorIndentGuide.activeBackground":  "!!COL!{fg_dim.srgb}!",
+		"editor.selectionBackground":          "!!COL!{bg_bright_2.srgb}!",
+		"editor.inactiveSelectionBackground":  "!!COL!{bg_bright_1.srgb}!",
+		"editor.selectionHighlightBackground": "!!COL!{bg.srgb}!",
+		"editor.selectionHighlightBorder":     "!!COL!{bg_bright_2.srgb}!"
+	},
+	"tokenColors": [
+		{
+			"scope": "comment",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "!!COL!{fg_dim.srgb}!"
+			}
+		},
+		{
+			"name": "keywords (including function and class defs)",
+			"scope": [
+				"keyword.control",
+				"storage.type.function",
+				"storage.type.class"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "!!COL!{fg.srgb}!"
+			}
+		},
+		{
+			"scope": "keyword.operator",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "!!COL!{fg.srgb}!"
+			}
+		},
+		{
+			"name": "imports",
+			"scope": [
+				"keyword.control.import",
+				"keyword.other.import"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "!!COL!{fg.srgb}!"
+			}
+		},
+		{
+			"scope": "string",
+			"settings": {
+				"foreground": "!!COL!{fg_dim_2.srgb}!"
+			}
+		},
+		{
+			"name": "docstrings and other multiline strings",
+			"scope": [
+				"string.unquoted",
+				"string.quoted.docstring.multi"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "!!COL!{fg_dim_2.srgb}!"
+			}
+		},
+		{
+			"scope": "constant",
+			"settings": {
+				"foreground": "!!COL!{fg.srgb}!"
+			}
+		},
+		{
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "!!COL!{fg_bright.srgb}!"
+			}
+		},
+		{
+			"name": "string interpolation",
+			"scope": [
+				"string.constant.character.escape",
+				"constant.character.format",
+				"constant.character.escape",
+				"punctuation.section.embedded",
+				"punctuation.definition.template-expression.begin",
+				"punctuation.definition.template-expression.end",
+				"storage.type.string"
+			],
+			"settings": {
+				"foreground": "!!COL!{fg_bright.srgb}!"
+			}
+		},
+		{
+			"scope": "storage",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "!!COL!{fg_dim_2.srgb}!"
+			}
+		},
+		{
+			"name": "const, final, abstract etc.",
+			"scope": "storage.modifier",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "!!COL!{fg_dim_2.srgb}!"
+			}
+		},
+		{
+			"name": "Name of the defined entity",
+			"scope": "entity.name.class",
+			"settings": {
+				"fontStyle": "bold underline",
+				"foreground": "!!COL!{fg.srgb}!"
+			}
+		},
+		{
+			"name": "Name of the defined entity",
+			"scope": "entity.name",
+			"settings": {
+				"foreground": "!!COL!{fg.srgb}!"
+			}
+		},
+		{
+			"scope": "entity.name.function.decorator",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "!!COL!{fg_dim_2.srgb}!"
+			}
+		},
+		{
+			"scope": "variable",
+			"settings": {
+				"foreground": "!!COL!{fg.srgb}!"
+			}
+		},
+		{
+			"name": "Almost every variable in JS is in this scope",
+			"scope": "variable.other",
+			"settings": {
+				"foreground": "!!COL!{fg.srgb}!"
+			}
+		},
+		{
+			"name": "reserved language variables like this, super, self",
+			"scope": "variable.language",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "!!COL!{fg_dim_2.srgb}!"
+			}
+		},
+		{
+			"name": "stuff from library/framework",
+			"scope": "support",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "!!COL!{fg.srgb}!"
+			}
+		},
+		{
+			"scope": "support.type.exception",
+			"settings": {
+				"fontStyle": "underline",
+				"foreground": "!!COL!{fg.srgb}!"
+			}
+		},
+		{
+			"name": "dots, parens etc. (token separators)",
+			"scope": [
+				"punctuation.definition.block",
+				"punctuation.definition.parameters",
+				"punctuation.definition.arguments",
+				"punctuation.definition.list",
+				"punctuation.definition.dict",
+				"punctuation.definition.binding-pattern",
+				"punctuation.section.block",
+				"punctuation.section.function",
+				"punctuation.section.method",
+				"punctuation.section.class",
+				"punctuation.section.array",
+				"punctuation.separator",
+				"punctuation.accessor"
+			],
+			"settings": {
+				"foreground": "!!COL!{fg_bright.srgb}!"
+			}
+		}
+	]
+}
+
