@@ -17,6 +17,11 @@
                 "path": "./themes/Selenized-monochrome-1.json"
             },
             {
+                "label": "Selenized (monochrome 2)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Selenized-monochrome-2.json"
+            },
+            {
                 "label": "Selenized (0.3)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Selenized.json"
