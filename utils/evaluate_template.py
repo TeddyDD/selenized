@@ -60,7 +60,7 @@ def load_palette_from_module(module_name):
     print('Palette: ' + palette['name'] + '\n')
     for color in DEFAULT_COLOR_ORDER:
         if color in ['red', 'br_red']:
-            print ('') # section separator
+            print('')  # section separator
         if color in palette:
             print("{:<12}{}".format(color, palette[color]))
 
