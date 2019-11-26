@@ -1,0 +1,147 @@
+# vim: ft=colortemplate fdm=marker cc=22,40,58 et ts=2 sw=2
+
+# Information {{{
+Full name:     Minimal selenized dark
+Short name:    selenized_minimal
+Author:        Jan Warchoł <jan.warchol@gmail.com>
+# }}}
+
+# Color palette {{{
+# Color name         GUI            Base256     Base16 (optional)
+Color: bg1           #252525        ~         Black
+Color: bg2           #3b3b3b        ~         DarkGrey
+Color: fg2           #777777        ~         LightGrey
+Color: hi1           #dedede        ~         White
+Color: red           #ed4a46        ~         DarkRed
+Color: green         #70b433        ~         DarkGreen
+Color: yellow        #dbb32d        ~         DarkYellow
+Color: blue          #368aeb        ~         DarkBlue
+Color: magenta       #eb6eb7        ~         DarkMagenta
+Color: cyan          #3fc5b7        ~         DarkCyan
+
+# only for terminal colors
+Color: br_red     rgb(255, 100,   0)        ~         LightRed
+Color: br_green   rgb(100, 255,   0)        ~         LightGreen
+Color: br_yellow  rgb(255, 255, 100)        ~         LightYellow
+Color: br_blue    rgb(  0, 100, 255)        ~         LightBlue
+Color: br_magenta rgb(255, 100, 255)        ~         LightMagenta
+Color: br_cyan    rgb(100, 255, 255)        ~         LightCyan
+# }}}
+
+# Terminal colors {{{
+Term colors: bg1 red green yellow blue magenta cyan fg2
+Term colors: bg2 br_red br_green br_yellow br_blue br_magenta br_cyan hi1
+# }}}
+
+
+
+Background: any
+Variant: gui 256 16
+
+# interface elements
+Visual        none   bg2
+LineNr        fg2    bg1
+CursorLineNr  hi1    none
+CursorColumn  none   bg1
+CursorLine    none   bg1
+ToolbarLine   none   bg2
+ToolbarButton fg2    none reverse
+VertSplit     fg2 fg2
+
+# diffing
+DiffAdd       none   none
+DiffChange    none   none
+DiffDelete    none   none
+DiffText      none   none
+
+# other
+MatchParen    yellow bg2  bold
+IncSearch     yellow none reverse
+Search        hi1    none reverse
+
+# syntax elements
+Comment       fg2    none
+Constant      cyan   none
+String        green  none
+Statement     hi1    none bold
+Identifier    none   none
+PreProc       none   none underline
+Special       cyan   none
+
+
+
+# Common linked groups {{{
+QuickFixLine      -> Search
+StatusLineTerm    -> StatusLine
+StatusLineTermNC  -> StatusLineNC
+Boolean           -> Constant
+Character         -> Constant
+Conditional       -> Statement
+Define            -> PreProc
+Debug             -> Special
+Delimiter         -> Special
+Exception         -> Statement
+Float             -> Constant
+Function          -> Identifier
+Include           -> PreProc
+Keyword           -> Statement
+Label             -> Statement
+Macro             -> PreProc
+Number            -> Constant
+Operator          -> Statement
+PreCondit         -> PreProc
+Repeat            -> Statement
+SpecialChar       -> Special
+SpecialComment    -> Special
+StorageClass      -> Type
+Structure         -> Type
+Tag               -> Special
+Typedef           -> Type
+# See `:help lCursor`
+lCursor           -> Cursor
+# }}}
+
+# Default highlight groups {{{
+
+# Group              Foreground    Background    Attributes
+Normal               none          none
+Terminal             none          none
+ColorColumn          none          none
+Conceal              none          none
+Cursor               none          none
+Directory            none          none
+EndOfBuffer          none          none
+ErrorMsg             none          none
+FoldColumn           none          none
+Folded               none          none
+ModeMsg              none          none
+MoreMsg              none          none
+NonText              none          none
+Pmenu                none          none
+PmenuSbar            none          none
+PmenuSel             none          none
+PmenuThumb           none          none
+Question             none          none
+SignColumn           none          none
+SpecialKey           none          none
+SpellBad             none          none
+SpellCap             none          none
+SpellLocal           none          none
+SpellRare            none          none
+StatusLine           none          none
+StatusLineNC         none          none
+TabLine              none          none
+TabLineFill          none          none
+TabLineSel           none          none
+Title                none          none
+VisualNOS            none          none
+WarningMsg           none          none
+WildMenu             none          none
+
+Error                none          none
+Ignore               none          none
+Todo                 none          none
+Type                 none          none
+Underlined           none          none
+
+# }}}
