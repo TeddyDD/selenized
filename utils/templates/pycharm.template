@@ -8,7 +8,6 @@
   </metaInfo>
   <colors>
     <option name="CARET_ROW_COLOR" value="!!COL!{bg_bright_1.srgb_no_hash}!" />
-    <option name="FOLDED_TEXT_BORDER_COLOR" value="!!COL!{fg.srgb_no_hash}!" />
     <option name="GUTTER_BACKGROUND" value="!!COL!{bg_bright_1.srgb_no_hash}!" />
     <option name="LINE_NUMBERS_COLOR" value="!!COL!{fg_dim.srgb_no_hash}!" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="!!COL!{fg.srgb_no_hash}!" />
@@ -45,7 +44,7 @@
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="!!COL!{fg.srgb_no_hash}!" />
+        <option name="FOREGROUND" value="!!COL!{cyan.srgb_no_hash}!" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -96,7 +95,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="!!COL!{fg_bright_2.srgb_no_hash}!" />
+        <option name="FOREGROUND" value="!!COL!{yellow.srgb_no_hash}!" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -108,8 +107,7 @@
     </option>
     <option name="DEFAULT_NUMBER">
       <value>
-        <option name="FOREGROUND" value="!!COL!{fg.srgb_no_hash}!" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="!!COL!{orange.srgb_no_hash}!" />
       </value>
     </option>
     <option name="DEFAULT_PARENTHS">
@@ -119,6 +117,7 @@
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
+        <option name="FOREGROUND" value="!!COL!{violet.srgb_no_hash}!" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -139,13 +138,12 @@
     </option>
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="!!COL!{fg_dim_2.srgb_no_hash}!" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="!!COL!{green.srgb_no_hash}!" />
       </value>
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="!!COL!{fg_bright.srgb_no_hash}!" />
+        <option name="FOREGROUND" value="!!COL!{magenta.srgb_no_hash}!" />
       </value>
     </option>
     <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
@@ -182,13 +180,13 @@
     <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.SELF_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="!!COL!{fg_dim_2.srgb_no_hash}!" />
-        <option name="FONT_TYPE" value="3" />
+        <option name="FOREGROUND" value="!!COL!{blue.srgb_no_hash}!" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PY.STRING.B">
       <value>
-        <option name="FOREGROUND" value="!!COL!{fg_bright.srgb_no_hash}!" />
+        <option name="FOREGROUND" value="!!COL!{cyan.srgb_no_hash}!" />
       </value>
     </option>
     <option name="TEXT">
